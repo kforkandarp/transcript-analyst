@@ -25,7 +25,8 @@ def compute_raw_content_hash(raw_dir: Path) -> str:
 
     for file_path in sorted(raw_dir.glob("*.txt")):
         hasher.update(file_path.name.encode("utf-8"))
-        hasher.update(file_path.read_bytes())
+        content = file_path.read_text(encoding="utf-8-sig").replace("\r\n", "\n").replace("\r", "\n")
+        hasher.update(content.encode("utf-8"))
 
     return hasher.hexdigest()
 

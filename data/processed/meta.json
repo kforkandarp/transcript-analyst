@@ -5,6 +5,6 @@
     "large": "openai/gpt-oss-120b",
     "embed": "BAAI/bge-small-en-v1.5"
   },
-  "content_hash": "acba10f54f8eae0b9a7a0461c1d66a3ed7cfed7181260869573347f9481b3fb5",
-  "timestamp": "2026-09-23T02:54:03.904344+00:00"
+  "content_hash": "b45377b6b02701d11d79e35cabf767e8f9db836edff02aef2071e481bde5cf8d",
+  "timestamp": "2026-09-23T04:14:50.355031+00:00"
 }

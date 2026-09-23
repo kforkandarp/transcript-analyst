@@ -1,213 +1,34 @@
 [
   {
-    "title": "Adoption concentrated in larger hospitals",
-    "kind": "common",
-    "verdict": "agree",
-    "summary": "All three experts note that robotic surgery adoption is expanding but remains focused in large academic or university hospitals, while smaller regional facilities lag behind. The observation comes from a procurement director in Germany, a urology department head in France, and a consultant urologist in the UK.",
-    "positions": [
-      {
-        "transcript_id": "T2",
-        "expert_name": "Anna Keller",
-        "market": "Germany",
-        "position": "The expert says adoption is growing but uneven, with large university hospitals ahead and smaller hospitals lagging.",
-        "evidence": [
-          {
-            "chunk_id": "T2-X1",
-            "transcript_id": "T2",
-            "expert_name": "Anna Keller",
-            "quote": "It is growing, but adoption is quite uneven. Large university hospitals are much more advanced, while many smaller hospitals are still waiting.",
-            "ts": "00:16",
-            "question_ts": "00:00"
-          }
-        ],
-        "value": null,
-        "scope": null,
-        "qualifier": null
-      },
-      {
-        "transcript_id": "T1",
-        "expert_name": "Dr. Jean Martin",
-        "market": "France",
-        "position": "Adoption is growing but mainly in large academic and private hospitals with strong capital budgets, while smaller regional hospitals adopt more slowly.",
-        "evidence": [
-          {
-            "chunk_id": "T1-X1",
-            "transcript_id": "T1",
-            "expert_name": "Dr. Jean Martin",
-            "quote": "Adoption is growing, but it is still concentrated in larger academic hospitals and private centres with stronger capital budgets. Smaller regional hospitals are much slower.",
-            "ts": "00:18",
-            "question_ts": "00:00"
-          }
-        ],
-        "value": null,
-        "scope": null,
-        "qualifier": null
-      },
-      {
-        "transcript_id": "T3",
-        "expert_name": "Dr. Emily Carter",
-        "market": "United Kingdom",
-        "position": "Adoption is increasing, and in some larger NHS trusts robotic surgery is becoming standard for selected procedures, though access still varies significantly by hospital.",
-        "evidence": [
-          {
-            "chunk_id": "T3-X1",
-            "transcript_id": "T3",
-            "expert_name": "Dr. Emily Carter",
-            "quote": "Adoption is increasing, and in some larger NHS trusts robotic surgery is becoming standard for selected procedures. But access still varies significantly by hospital.",
-            "ts": "00:14",
-            "question_ts": "00:00"
-          }
-        ],
-        "value": null,
-        "scope": null,
-        "qualifier": null
-      }
-    ],
-    "expert_count": 3
-  },
-  {
-    "title": "Economic case and ROI importance",
-    "kind": "common",
-    "verdict": "partly_agree",
-    "summary": "The economic justification, including ROI and total cost of ownership, is central to purchase decisions. German procurement evaluates TCO and volume, the French clinician stresses ROI data, whereas the UK consultant adds that clinical benefits and strategic positioning also influence the calculation.",
-    "positions": [
-      {
-        "transcript_id": "T2",
-        "expert_name": "Anna Keller",
-        "market": "Germany",
-        "position": "Procurement evaluates total cost of ownership, expected procedure volume, maintenance, service contracts, and training, with the economic case ultimately deciding approval.",
-        "evidence": [
-          {
-            "chunk_id": "T2-X3",
-            "transcript_id": "T2",
-            "expert_name": "Anna Keller",
-            "quote": "We look at total cost of ownership, expected procedure volume, maintenance, service contracts and training requirements. A strong clinical case helps, but the economic case decides whether it gets approved.",
-            "ts": "02:08",
-            "question_ts": "02:03"
-          }
-        ],
-        "value": null,
-        "scope": null,
-        "qualifier": null
-      },
-      {
-        "transcript_id": "T1",
-        "expert_name": "Dr. Jean Martin",
-        "market": "France",
-        "position": "Return on investment is crucial; finance teams need data on utilisation, procedure volume, maintenance costs, and whether the system will actually pay for itself.",
-        "evidence": [
-          {
-            "chunk_id": "T1-X3",
-            "transcript_id": "T1",
-            "expert_name": "Dr. Jean Martin",
-            "quote": "Very important. The clinical argument may get surgeons interested, but the finance team wants to understand utilisation, procedure volume, maintenance cost and whether the system will actually pay for itself.",
-            "ts": "02:18",
-            "question_ts": "02:14"
-          }
-        ],
-        "value": null,
-        "scope": null,
-        "qualifier": null
-      },
-      {
-        "transcript_id": "T3",
-        "expert_name": "Dr. Emily Carter",
-        "market": "United Kingdom",
-        "position": "ROI matters, but decisions are not purely financial; hospitals also consider patient outcomes, length of stay, surgeon recruitment and whether the technology improves their clinical position.",
-        "evidence": [
-          {
-            "chunk_id": "T3-X3",
-            "transcript_id": "T3",
-            "expert_name": "Dr. Emily Carter",
-            "quote": "It matters, but the discussion is not always purely financial. Hospitals also consider patient outcomes, length of stay, surgeon recruitment and whether the technology improves their clinical position.",
-            "ts": "02:07",
-            "question_ts": "02:02"
-          }
-        ],
-        "value": null,
-        "scope": null,
-        "qualifier": null
-      }
-    ],
-    "expert_count": 3
-  },
-  {
-    "title": "Financial and capital constraints",
-    "kind": "common",
-    "verdict": "agree",
-    "summary": "Cost and capital approval are repeatedly identified as the main hurdles to acquiring robotic systems. Both the German procurement perspective and the French clinical leader emphasize large upfront outlays, while the UK consultant also highlights funding availability as a limiting factor.",
-    "positions": [
-      {
-        "transcript_id": "T2",
-        "expert_name": "Anna Keller",
-        "market": "Germany",
-        "position": "Cost is the primary barrier, as robotic systems require large capital outlays and hospitals face financial pressure; additionally, proving sufficient usage is a second hurdle.",
-        "evidence": [
-          {
-            "chunk_id": "T2-X2",
-            "transcript_id": "T2",
-            "expert_name": "Anna Keller",
-            "quote": "Cost is the first barrier. These are large capital purchases, and hospital finances are under pressure. The second issue is proving that the system will be used enough.",
-            "ts": "01:10",
-            "question_ts": "01:05"
-          }
-        ],
-        "value": null,
-        "scope": null,
-        "qualifier": null
-      },
-      {
-        "transcript_id": "T1",
-        "expert_name": "Dr. Jean Martin",
-        "market": "France",
-        "position": "The biggest obstacle to adoption is capital budget approval; committees require a strong economic case before purchasing.",
-        "evidence": [
-          {
-            "chunk_id": "T1-X2",
-            "transcript_id": "T1",
-            "expert_name": "Dr. Jean Martin",
-            "quote": "The biggest issue is still capital budget approval. Hospitals may like the technology clinically, but purchasing committees need a strong economic case before approving a system.",
-            "ts": "01:20",
-            "question_ts": "01:12"
-          }
-        ],
-        "value": null,
-        "scope": null,
-        "qualifier": null
-      },
-      {
-        "transcript_id": "T3",
-        "expert_name": "Dr. Emily Carter",
-        "market": "United Kingdom",
-        "position": "Funding is important, but training capacity is just as important; without enough trained surgeons and theatre staff, adoption stalls.",
-        "evidence": [
-          {
-            "chunk_id": "T3-X2",
-            "transcript_id": "T3",
-            "expert_name": "Dr. Emily Carter",
-            "quote": "Funding is important, but I would say training capacity is just as important. You can buy a system, but if you cannot train enough surgeons and theatre staff, adoption stalls.",
-            "ts": "01:05",
-            "question_ts": "01:00"
-          }
-        ],
-        "value": null,
-        "scope": null,
-        "qualifier": null
-      }
-    ],
-    "expert_count": 3
-  },
-  {
     "title": "Projected procedure volume growth",
-    "kind": "common",
+    "kind": "disagreement",
     "verdict": "partly_agree",
-    "summary": "Projected growth in procedure volumes varies across the experts. The German expert foresees high single‑digit to low double‑digit increases, the French clinician mentions a possible 15‑20 % rise in stronger centres, and the UK consultant anticipates growth above 15 % where training expands.",
+    "summary": "The French expert forecasts a 15‑20 % annual increase in strong centres, the German expert expects high single‑digit to low double‑digit growth, and the UK clinician suggests possible growth above 15 % in some areas if training improves. All agree growth will occur, but the magnitude and certainty differ. The statements reflect different market expectations and hedging language.",
     "positions": [
+      {
+        "transcript_id": "T1",
+        "expert_name": "Dr. Jean Martin",
+        "market": "France",
+        "position": "Adoption is expected to keep increasing steadily rather than explosively, with a possible 15 to 20 percent rise in procedures annually at stronger centres, while smaller hospitals stay slower.",
+        "evidence": [
+          {
+            "chunk_id": "T1-X6",
+            "transcript_id": "T1",
+            "expert_name": "Dr. Jean Martin",
+            "quote": "I expect adoption to continue increasing, probably steadily rather than explosively. I would expect maybe 15 to 20 percent more procedures annually in some of the stronger centres, but smaller hospitals will remain slower.",
+            "ts": "05:07",
+            "question_ts": "05:00"
+          }
+        ],
+        "value": "15 to 20 percent",
+        "scope": "more procedures annually in some of the stronger centres",
+        "qualifier": "maybe"
+      },
       {
         "transcript_id": "T2",
         "expert_name": "Anna Keller",
         "market": "Germany",
-        "position": "The expert anticipates growth in procedure volumes likely in the high single digits or low double digits, rather than around 20 percent across the whole market.",
+        "position": "Growth is likely to be in the high single digits or low double digits for procedure volumes, not as high as a 20 percent market-wide increase.",
         "evidence": [
           {
             "chunk_id": "T2-X6",
@@ -223,29 +44,10 @@
         "qualifier": "probably"
       },
       {
-        "transcript_id": "T1",
-        "expert_name": "Dr. Jean Martin",
-        "market": "France",
-        "position": "Over the next three to five years, adoption should increase steadily, with maybe 15 to 20 percent more procedures annually in stronger centres, while smaller hospitals remain slower.",
-        "evidence": [
-          {
-            "chunk_id": "T1-X6",
-            "transcript_id": "T1",
-            "expert_name": "Dr. Jean Martin",
-            "quote": "I expect adoption to continue increasing, probably steadily rather than explosively. I would expect maybe 15 to 20 percent more procedures annually in some of the stronger centres, but smaller hospitals will remain slower.",
-            "ts": "05:07",
-            "question_ts": "05:00"
-          }
-        ],
-        "value": "15 to 20 percent",
-        "scope": "procedures annually in some of the stronger centres",
-        "qualifier": "maybe"
-      },
-      {
         "transcript_id": "T3",
         "expert_name": "Dr. Emily Carter",
         "market": "United Kingdom",
-        "position": "She is quite positive about the next three to five years, expecting adoption could accelerate if training expands and systems become more cost‑competitive, with procedure growth above 15 percent annually in some areas.",
+        "position": "The expert is quite positive about the next three to five years and could see procedure growth above 15 percent annually in some areas if training expands and systems become more cost‑competitive.",
         "evidence": [
           {
             "chunk_id": "T3-X5",
@@ -264,35 +66,82 @@
     "expert_count": 3
   },
   {
-    "title": "Purchase decision timelines",
+    "title": "Economic case drives decisions",
     "kind": "common",
     "verdict": "partly_agree",
-    "summary": "Timelines for purchase decisions differ but overlap. The German procurement process is said to take nine to eighteen months, the French side cites six to twelve months, and the UK perspective notes six to nine months when funding is ready, with longer waits otherwise.",
+    "summary": "Finance and procurement leaders emphasise ROI, total cost of ownership and procedure volume as decisive factors. The UK clinician acknowledges ROI but also mentions patient outcomes and strategic positioning, adding a broader view. The positions are broadly aligned but differ in scope of considerations.",
     "positions": [
-      {
-        "transcript_id": "T2",
-        "expert_name": "Anna Keller",
-        "market": "Germany",
-        "position": "The typical purchase process takes nine to eighteen months, as multiple stakeholders must align.",
-        "evidence": [
-          {
-            "chunk_id": "T2-X7",
-            "transcript_id": "T2",
-            "expert_name": "Anna Keller",
-            "quote": "Nine to eighteen months is common. Procurement, clinical leadership, finance and management all need to align, so it can move slowly.",
-            "ts": "06:05",
-            "question_ts": "06:00"
-          }
-        ],
-        "value": "nine to eighteen months",
-        "scope": "purchase process",
-        "qualifier": null
-      },
       {
         "transcript_id": "T1",
         "expert_name": "Dr. Jean Martin",
         "market": "France",
-        "position": "A realistic purchase decision takes six to twelve months once the hospital is serious, but can be longer if the capital committee pushes the purchase into the next budget cycle.",
+        "position": "Return on investment is crucial: finance teams need to see utilisation, procedure volume, maintenance costs and evidence that the system will ultimately pay for itself.",
+        "evidence": [
+          {
+            "chunk_id": "T1-X3",
+            "transcript_id": "T1",
+            "expert_name": "Dr. Jean Martin",
+            "quote": "Very important. The clinical argument may get surgeons interested, but the finance team wants to understand utilisation, procedure volume, maintenance cost and whether the system will actually pay for itself.",
+            "ts": "02:18",
+            "question_ts": "02:14"
+          }
+        ],
+        "value": null,
+        "scope": null,
+        "qualifier": null
+      },
+      {
+        "transcript_id": "T2",
+        "expert_name": "Anna Keller",
+        "market": "Germany",
+        "position": "Procurement decisions focus on total cost of ownership, expected procedure volume, maintenance, service contracts, and training, with the economic case ultimately determining approval.",
+        "evidence": [
+          {
+            "chunk_id": "T2-X3",
+            "transcript_id": "T2",
+            "expert_name": "Anna Keller",
+            "quote": "We look at total cost of ownership, expected procedure volume, maintenance, service contracts and training requirements. A strong clinical case helps, but the economic case decides whether it gets approved.",
+            "ts": "02:08",
+            "question_ts": "02:03"
+          }
+        ],
+        "value": null,
+        "scope": null,
+        "qualifier": null
+      },
+      {
+        "transcript_id": "T3",
+        "expert_name": "Dr. Emily Carter",
+        "market": "United Kingdom",
+        "position": "ROI matters, but decisions are not purely financial; hospitals also consider patient outcomes, length of stay, surgeon recruitment, and whether the technology improves their clinical position.",
+        "evidence": [
+          {
+            "chunk_id": "T3-X3",
+            "transcript_id": "T3",
+            "expert_name": "Dr. Emily Carter",
+            "quote": "It matters, but the discussion is not always purely financial. Hospitals also consider patient outcomes, length of stay, surgeon recruitment and whether the technology improves their clinical position.",
+            "ts": "02:07",
+            "question_ts": "02:02"
+          }
+        ],
+        "value": null,
+        "scope": null,
+        "qualifier": null
+      }
+    ],
+    "expert_count": 3
+  },
+  {
+    "title": "Procurement decision timeline",
+    "kind": "common",
+    "verdict": "partly_agree",
+    "summary": "The French urology head cites a six‑to‑twelve‑month window once a hospital is serious, the German director notes nine‑to‑eighteen months due to multiple stakeholders, and the UK consultant mentions six‑to‑nine months when funding is pre‑approved but longer otherwise. The ranges overlap but differ in typical duration and conditions. The perspectives vary by role and market context.",
+    "positions": [
+      {
+        "transcript_id": "T1",
+        "expert_name": "Dr. Jean Martin",
+        "market": "France",
+        "position": "A realistic purchase decision takes six to twelve months once a hospital is serious, though it can be longer if the capital committee pushes the purchase into the next budget cycle.",
         "evidence": [
           {
             "chunk_id": "T1-X7",
@@ -303,15 +152,34 @@
             "question_ts": "06:02"
           }
         ],
-        "value": "six to twelve months",
-        "scope": "purchase decision",
+        "value": "Six to twelve months",
+        "scope": "once the hospital becomes serious",
+        "qualifier": null
+      },
+      {
+        "transcript_id": "T2",
+        "expert_name": "Anna Keller",
+        "market": "Germany",
+        "position": "The procurement process typically takes nine to eighteen months, as multiple stakeholders must align.",
+        "evidence": [
+          {
+            "chunk_id": "T2-X7",
+            "transcript_id": "T2",
+            "expert_name": "Anna Keller",
+            "quote": "Nine to eighteen months is common.",
+            "ts": "06:05",
+            "question_ts": "06:00"
+          }
+        ],
+        "value": "Nine to eighteen months",
+        "scope": "purchase process",
         "qualifier": null
       },
       {
         "transcript_id": "T3",
         "expert_name": "Dr. Emily Carter",
         "market": "United Kingdom",
-        "position": "Around six to nine months can happen if funding is already available; otherwise, waiting for a new capital cycle can take much longer.",
+        "position": "Around six to nine months can happen if funding is already available; otherwise waiting for a new capital cycle can take much longer.",
         "evidence": [
           {
             "chunk_id": "T3-X6",
@@ -323,42 +191,23 @@
           }
         ],
         "value": "six to nine months",
-        "scope": "purchase timelines",
-        "qualifier": "can"
+        "scope": "purchase",
+        "qualifier": "around"
       }
     ],
     "expert_count": 3
   },
   {
-    "title": "Surgeon training as a utilization driver",
+    "title": "Training critical for utilization",
     "kind": "common",
     "verdict": "agree",
-    "summary": "Training of surgeons and theatre staff is described as essential for achieving sufficient utilization. The German procurement expert, the French urology head, and the UK consultant all stress that reliance on a single trained surgeon undermines the business case.",
+    "summary": "All three experts stress that having only one trained surgeon limits utilisation and weakens the business case. The French and German respondents highlight operational concerns, while the UK consultant adds that training capacity is as important as funding. Despite differing roles, the core message aligns.",
     "positions": [
-      {
-        "transcript_id": "T2",
-        "expert_name": "Anna Keller",
-        "market": "Germany",
-        "position": "Surgeon training is operationally critical; if only one surgeon is comfortable, utilization suffers, weakening the business case.",
-        "evidence": [
-          {
-            "chunk_id": "T2-X4",
-            "transcript_id": "T2",
-            "expert_name": "Anna Keller",
-            "quote": "Very important operationally. If the hospital buys a system but only one surgeon is comfortable using it, utilisation will be poor. That weakens the business case.",
-            "ts": "03:05",
-            "question_ts": "03:00"
-          }
-        ],
-        "value": null,
-        "scope": null,
-        "qualifier": null
-      },
       {
         "transcript_id": "T1",
         "expert_name": "Dr. Jean Martin",
         "market": "France",
-        "position": "Training, especially in the first year, is vital; having only one trained surgeon makes the economics difficult, so hospitals aim to train several surgeons to ensure high utilisation.",
+        "position": "Training is especially important in the first year; if only one surgeon can operate the robot, the economics are difficult, so hospitals aim to have several surgeons trained to keep utilisation high.",
         "evidence": [
           {
             "chunk_id": "T1-X4",
@@ -374,10 +223,29 @@
         "qualifier": null
       },
       {
+        "transcript_id": "T2",
+        "expert_name": "Anna Keller",
+        "market": "Germany",
+        "position": "Surgeon training is operationally critical; if only one surgeon is comfortable, utilisation will be poor, weakening the business case.",
+        "evidence": [
+          {
+            "chunk_id": "T2-X4",
+            "transcript_id": "T2",
+            "expert_name": "Anna Keller",
+            "quote": "Very important operationally. If the hospital buys a system but only one surgeon is comfortable using it, utilisation will be poor. That weakens the business case.",
+            "ts": "03:05",
+            "question_ts": "03:00"
+          }
+        ],
+        "value": null,
+        "scope": null,
+        "qualifier": null
+      },
+      {
         "transcript_id": "T3",
         "expert_name": "Dr. Emily Carter",
         "market": "United Kingdom",
-        "position": "Funding is important, but training capacity is just as important; without enough trained surgeons and theatre staff, adoption stalls.",
+        "position": "Funding is important, but training capacity is just as important; without enough trained surgeons and theatre staff, adoption stalls even if a system is purchased.",
         "evidence": [
           {
             "chunk_id": "T3-X2",
@@ -396,16 +264,137 @@
     "expert_count": 3
   },
   {
-    "title": "Clinical outcomes not decisive",
-    "kind": "unique",
-    "verdict": null,
-    "summary": "Clinical outcomes alone are not sufficient to drive adoption; when competing systems show similar results, hospitals prioritize economic factors and utilization.",
+    "title": "Uneven adoption across hospital sizes",
+    "kind": "common",
+    "verdict": "agree",
+    "summary": "Clinicians and procurement experts observe that large academic or university hospitals adopt robotic surgery faster, whereas smaller regional hospitals adopt more slowly. This pattern is reported for France, Germany and the United Kingdom. The wording varies but the overall assessment is consistent.",
     "positions": [
       {
         "transcript_id": "T1",
         "expert_name": "Dr. Jean Martin",
         "market": "France",
-        "position": "Clinical outcomes are necessary but not enough on their own; when two systems offer similar outcomes, hospitals focus on economics and utilisation.",
+        "position": "Adoption of robotic surgery is growing but remains focused in larger academic hospitals and private centres with strong capital budgets, while smaller regional hospitals adopt it much more slowly.",
+        "evidence": [
+          {
+            "chunk_id": "T1-X1",
+            "transcript_id": "T1",
+            "expert_name": "Dr. Jean Martin",
+            "quote": "Adoption is growing, but it is still concentrated in larger academic hospitals and private centres with stronger capital budgets. Smaller regional hospitals are much slower.",
+            "ts": "00:18",
+            "question_ts": "00:00"
+          }
+        ],
+        "value": null,
+        "scope": null,
+        "qualifier": null
+      },
+      {
+        "transcript_id": "T2",
+        "expert_name": "Anna Keller",
+        "market": "Germany",
+        "position": "Robotic surgery adoption is expanding overall but remains uneven, with large university hospitals being far ahead while many smaller hospitals are still waiting.",
+        "evidence": [
+          {
+            "chunk_id": "T2-X1",
+            "transcript_id": "T2",
+            "expert_name": "Anna Keller",
+            "quote": "It is growing, but adoption is quite uneven. Large university hospitals are much more advanced, while many smaller hospitals are still waiting.",
+            "ts": "00:16",
+            "question_ts": "00:00"
+          }
+        ],
+        "value": null,
+        "scope": null,
+        "qualifier": null
+      },
+      {
+        "transcript_id": "T3",
+        "expert_name": "Dr. Emily Carter",
+        "market": "United Kingdom",
+        "position": "Adoption is increasing, with robotic surgery becoming standard in larger NHS trusts, but access still varies significantly by hospital.",
+        "evidence": [
+          {
+            "chunk_id": "T3-X1",
+            "transcript_id": "T3",
+            "expert_name": "Dr. Emily Carter",
+            "quote": "Adoption is increasing, and in some larger NHS trusts robotic surgery is becoming standard for selected procedures. But access still varies significantly by hospital.",
+            "ts": "00:14",
+            "question_ts": "00:00"
+          }
+        ],
+        "value": null,
+        "scope": null,
+        "qualifier": null
+      }
+    ],
+    "expert_count": 3
+  },
+  {
+    "title": "Capital cost as primary adoption barrier",
+    "kind": "common",
+    "verdict": "agree",
+    "summary": "Both the French urology head and the German procurement director identify the large capital outlay and budget approval process as the main obstacle to acquiring a robot. Their comments focus on the need for a strong economic case before purchase. The perspective is shared across different roles and markets.",
+    "positions": [
+      {
+        "transcript_id": "T1",
+        "expert_name": "Dr. Jean Martin",
+        "market": "France",
+        "position": "The biggest obstacle to adoption is capital budget approval; even if clinicians like the technology, purchasing committees require a strong economic case before authorising a purchase.",
+        "evidence": [
+          {
+            "chunk_id": "T1-X2",
+            "transcript_id": "T1",
+            "expert_name": "Dr. Jean Martin",
+            "quote": "The biggest issue is still capital budget approval. Hospitals may like the technology clinically, but purchasing committees need a strong economic case before approving a system.",
+            "ts": "01:20",
+            "question_ts": "01:12"
+          }
+        ],
+        "value": null,
+        "scope": null,
+        "qualifier": null
+      },
+      {
+        "transcript_id": "T2",
+        "expert_name": "Anna Keller",
+        "market": "Germany",
+        "position": "The primary barrier is cost, as these systems require large capital outlays and hospitals face financial pressure; a secondary barrier is demonstrating sufficient usage to justify the investment.",
+        "evidence": [
+          {
+            "chunk_id": "T2-X2",
+            "transcript_id": "T2",
+            "expert_name": "Anna Keller",
+            "quote": "Cost is the first barrier. These are large capital purchases, and hospital finances are under pressure.",
+            "ts": "01:10",
+            "question_ts": "01:05"
+          },
+          {
+            "chunk_id": "T2-X2",
+            "transcript_id": "T2",
+            "expert_name": "Anna Keller",
+            "quote": "The second issue is proving that the system will be used enough.",
+            "ts": "01:10",
+            "question_ts": "01:05"
+          }
+        ],
+        "value": null,
+        "scope": null,
+        "qualifier": null
+      }
+    ],
+    "expert_count": 2
+  },
+  {
+    "title": "Clinical outcomes not decisive",
+    "kind": "unique",
+    "verdict": null,
+    "summary": "The French head of urology states that while good clinical outcomes are necessary, they are insufficient when two systems deliver similar results; economic factors then dominate the decision. This view is not echoed by the other experts, who focus on cost, training or broader strategic considerations. The comment reflects a clinician‑centric perspective on decision criteria.",
+    "positions": [
+      {
+        "transcript_id": "T1",
+        "expert_name": "Dr. Jean Martin",
+        "market": "France",
+        "position": "While good clinical outcomes are necessary, they are not enough; when two systems deliver similar outcomes, hospitals will focus on economics and utilisation to decide.",
         "evidence": [
           {
             "chunk_id": "T1-X5",
@@ -424,24 +413,24 @@
     "expert_count": 1
   },
   {
-    "title": "Gradual adoption due to competing priorities",
+    "title": "Detailed procurement evaluation criteria",
     "kind": "unique",
     "verdict": null,
-    "summary": "Adoption is expected to progress gradually rather than through a rapid surge, reflecting competing capital priorities within hospitals.",
+    "summary": "The German procurement director outlines specific evaluation factors such as total cost of ownership, expected volume, maintenance, service contracts and training. None of the other experts provide a comparable checklist. The focus on granular procurement metrics reflects a procurement‑focused role.",
     "positions": [
       {
         "transcript_id": "T2",
         "expert_name": "Anna Keller",
         "market": "Germany",
-        "position": "The expert expects adoption to increase gradually rather than a dramatic jump, due to competing capital priorities in hospitals.",
+        "position": "Procurement decisions focus on total cost of ownership, expected procedure volume, maintenance, service contracts, and training, with the economic case ultimately determining approval.",
         "evidence": [
           {
-            "chunk_id": "T2-X5",
+            "chunk_id": "T2-X3",
             "transcript_id": "T2",
             "expert_name": "Anna Keller",
-            "quote": "Yes, but I would not expect a dramatic jump. I think growth will be gradual, especially because many hospitals have other competing capital priorities.",
-            "ts": "04:09",
-            "question_ts": "04:04"
+            "quote": "We look at total cost of ownership, expected procedure volume, maintenance, service contracts and training requirements. A strong clinical case helps, but the economic case decides whether it gets approved.",
+            "ts": "02:08",
+            "question_ts": "02:03"
           }
         ],
         "value": null,
@@ -452,10 +441,10 @@
     "expert_count": 1
   },
   {
-    "title": "Sustainability requires trained staff and volume",
+    "title": "Sustainability beyond purchase",
     "kind": "unique",
     "verdict": null,
-    "summary": "Sustainability of a robotic programme requires both adequate trained personnel and a sufficient volume of cases to justify the investment.",
+    "summary": "The UK consultant highlights that adoption requires not only the robot but also enough trained staff and sufficient procedure volume to sustain the programme. This emphasis on post‑purchase sustainability is not mentioned by the French or German respondents. The statement combines operational and strategic concerns from a clinical viewpoint.",
     "positions": [
       {
         "transcript_id": "T3",
