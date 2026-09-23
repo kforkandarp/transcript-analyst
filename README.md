@@ -43,7 +43,9 @@ LLM_SMALL_MODEL=openai/gpt-oss-20b
 LLM_LARGE_MODEL=openai/gpt-oss-120b
 EMBED_MODEL=BAAI/bge-small-en-v1.5
 APP_PASSWORD=
+
 ```
+> `APP_PASSWORD` is an optional security boundary — leave it blank to run without a login gate.
 
 ### 3. Run Verification Tests & Launch App
 
