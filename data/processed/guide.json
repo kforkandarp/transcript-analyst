@@ -1,0 +1,49 @@
+{
+  "title": "Interview Guide – European Robotic Surgery Market",
+  "objective": "",
+  "questions": [
+    {
+      "id": 1,
+      "text": "How would you describe current adoption of robotic surgery in your market?",
+      "sub_questions": [
+        "How would you describe current adoption of robotic surgery in your market?"
+      ]
+    },
+    {
+      "id": 2,
+      "text": "What are the main barriers to adoption?",
+      "sub_questions": [
+        "What are the main barriers to adoption?"
+      ]
+    },
+    {
+      "id": 3,
+      "text": "How important are hospital budgets and ROI in purchasing decisions?",
+      "sub_questions": [
+        "How important are hospital budgets and ROI in purchasing decisions?"
+      ]
+    },
+    {
+      "id": 4,
+      "text": "How important are surgeon training and clinical outcomes?",
+      "sub_questions": [
+        "How important is surgeon training?",
+        "How important are clinical outcomes?"
+      ]
+    },
+    {
+      "id": 5,
+      "text": "What adoption trend do you expect over the next 3–5 years?",
+      "sub_questions": [
+        "What adoption trend do you expect over the next 3–5 years?"
+      ]
+    },
+    {
+      "id": 6,
+      "text": "What is the typical hospital decision-making timeline for purchasing a new robotic system?",
+      "sub_questions": [
+        "What is the typical hospital decision-making timeline for purchasing a new robotic system?"
+      ]
+    }
+  ]
+}

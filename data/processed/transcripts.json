@@ -1,0 +1,365 @@
+[
+  {
+    "id": "T1",
+    "source_file": "Transcript_1_France.txt",
+    "expert_name": "Dr. Jean Martin",
+    "expert_role": "Head of Urology",
+    "market": "France",
+    "turns": [
+      {
+        "idx": 0,
+        "ts": "00:00",
+        "seconds": 0,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "Thanks for joining. To begin, how would you describe robotic surgery adoption in France today?"
+      },
+      {
+        "idx": 1,
+        "ts": "00:18",
+        "seconds": 18,
+        "speaker_label": "Dr. Martin",
+        "role": "expert",
+        "text": "Adoption is growing, but it is still concentrated in larger academic hospitals and private centres with stronger capital budgets. Smaller regional hospitals are much slower."
+      },
+      {
+        "idx": 2,
+        "ts": "01:12",
+        "seconds": 72,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "What is holding adoption back?"
+      },
+      {
+        "idx": 3,
+        "ts": "01:20",
+        "seconds": 80,
+        "speaker_label": "Dr. Martin",
+        "role": "expert",
+        "text": "The biggest issue is still capital budget approval. Hospitals may like the technology clinically, but purchasing committees need a strong economic case before approving a system."
+      },
+      {
+        "idx": 4,
+        "ts": "02:14",
+        "seconds": 134,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "So ROI is important?"
+      },
+      {
+        "idx": 5,
+        "ts": "02:18",
+        "seconds": 138,
+        "speaker_label": "Dr. Martin",
+        "role": "expert",
+        "text": "Very important. The clinical argument may get surgeons interested, but the finance team wants to understand utilisation, procedure volume, maintenance cost and whether the system will actually pay for itself."
+      },
+      {
+        "idx": 6,
+        "ts": "03:05",
+        "seconds": 185,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "What about training?"
+      },
+      {
+        "idx": 7,
+        "ts": "03:10",
+        "seconds": 190,
+        "speaker_label": "Dr. Martin",
+        "role": "expert",
+        "text": "Training matters, especially in the first year. If only one surgeon can use the system, the economics become difficult. Hospitals want several surgeons trained so utilisation is high enough."
+      },
+      {
+        "idx": 8,
+        "ts": "04:02",
+        "seconds": 242,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "Are clinical outcomes still the main driver?"
+      },
+      {
+        "idx": 9,
+        "ts": "04:08",
+        "seconds": 248,
+        "speaker_label": "Dr. Martin",
+        "role": "expert",
+        "text": "Clinical outcomes are necessary, but they are not enough on their own. If two systems offer similar outcomes, the hospital will look hard at economics and utilisation."
+      },
+      {
+        "idx": 10,
+        "ts": "05:00",
+        "seconds": 300,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "What do you expect over the next three to five years?"
+      },
+      {
+        "idx": 11,
+        "ts": "05:07",
+        "seconds": 307,
+        "speaker_label": "Dr. Martin",
+        "role": "expert",
+        "text": "I expect adoption to continue increasing, probably steadily rather than explosively. I would expect maybe 15 to 20 percent more procedures annually in some of the stronger centres, but smaller hospitals will remain slower."
+      },
+      {
+        "idx": 12,
+        "ts": "06:02",
+        "seconds": 362,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "How long does a purchase decision normally take?"
+      },
+      {
+        "idx": 13,
+        "ts": "06:08",
+        "seconds": 368,
+        "speaker_label": "Dr. Martin",
+        "role": "expert",
+        "text": "Six to twelve months is realistic once the hospital becomes serious. It can be longer if the capital committee pushes the purchase into the next budget cycle."
+      }
+    ]
+  },
+  {
+    "id": "T2",
+    "source_file": "Transcript_2_Germany.txt",
+    "expert_name": "Anna Keller",
+    "expert_role": "Former Hospital Procurement Director",
+    "market": "Germany",
+    "turns": [
+      {
+        "idx": 0,
+        "ts": "00:00",
+        "seconds": 0,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "How would you describe robotic surgery adoption in Germany today?"
+      },
+      {
+        "idx": 1,
+        "ts": "00:16",
+        "seconds": 16,
+        "speaker_label": "Anna Keller",
+        "role": "expert",
+        "text": "It is growing, but adoption is quite uneven. Large university hospitals are much more advanced, while many smaller hospitals are still waiting."
+      },
+      {
+        "idx": 2,
+        "ts": "01:05",
+        "seconds": 65,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "What are the main barriers?"
+      },
+      {
+        "idx": 3,
+        "ts": "01:10",
+        "seconds": 70,
+        "speaker_label": "Anna Keller",
+        "role": "expert",
+        "text": "Cost is the first barrier. These are large capital purchases, and hospital finances are under pressure. The second issue is proving that the system will be used enough."
+      },
+      {
+        "idx": 4,
+        "ts": "02:03",
+        "seconds": 123,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "What does procurement focus on?"
+      },
+      {
+        "idx": 5,
+        "ts": "02:08",
+        "seconds": 128,
+        "speaker_label": "Anna Keller",
+        "role": "expert",
+        "text": "We look at total cost of ownership, expected procedure volume, maintenance, service contracts and training requirements. A strong clinical case helps, but the economic case decides whether it gets approved."
+      },
+      {
+        "idx": 6,
+        "ts": "03:00",
+        "seconds": 180,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "How important is surgeon training?"
+      },
+      {
+        "idx": 7,
+        "ts": "03:05",
+        "seconds": 185,
+        "speaker_label": "Anna Keller",
+        "role": "expert",
+        "text": "Very important operationally. If the hospital buys a system but only one surgeon is comfortable using it, utilisation will be poor. That weakens the business case."
+      },
+      {
+        "idx": 8,
+        "ts": "04:04",
+        "seconds": 244,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "Do you expect adoption to accelerate?"
+      },
+      {
+        "idx": 9,
+        "ts": "04:09",
+        "seconds": 249,
+        "speaker_label": "Anna Keller",
+        "role": "expert",
+        "text": "Yes, but I would not expect a dramatic jump. I think growth will be gradual, especially because many hospitals have other competing capital priorities."
+      },
+      {
+        "idx": 10,
+        "ts": "05:02",
+        "seconds": 302,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "Any rough expectation over the next three to five years?"
+      },
+      {
+        "idx": 11,
+        "ts": "05:08",
+        "seconds": 308,
+        "speaker_label": "Anna Keller",
+        "role": "expert",
+        "text": "I would expect continued growth, but probably closer to high single digits or low double digits in procedure volumes rather than something like 20 percent across the whole market."
+      },
+      {
+        "idx": 12,
+        "ts": "06:00",
+        "seconds": 360,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "How long can the purchase process take?"
+      },
+      {
+        "idx": 13,
+        "ts": "06:05",
+        "seconds": 365,
+        "speaker_label": "Anna Keller",
+        "role": "expert",
+        "text": "Nine to eighteen months is common. Procurement, clinical leadership, finance and management all need to align, so it can move slowly."
+      }
+    ]
+  },
+  {
+    "id": "T3",
+    "source_file": "Transcript_3_UK.txt",
+    "expert_name": "Dr. Emily Carter",
+    "expert_role": "Consultant Urologist",
+    "market": "United Kingdom",
+    "turns": [
+      {
+        "idx": 0,
+        "ts": "00:00",
+        "seconds": 0,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "How would you describe adoption in the UK?"
+      },
+      {
+        "idx": 1,
+        "ts": "00:14",
+        "seconds": 14,
+        "speaker_label": "Dr. Carter",
+        "role": "expert",
+        "text": "Adoption is increasing, and in some larger NHS trusts robotic surgery is becoming standard for selected procedures. But access still varies significantly by hospital."
+      },
+      {
+        "idx": 2,
+        "ts": "01:00",
+        "seconds": 60,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "What are the main barriers?"
+      },
+      {
+        "idx": 3,
+        "ts": "01:05",
+        "seconds": 65,
+        "speaker_label": "Dr. Carter",
+        "role": "expert",
+        "text": "Funding is important, but I would say training capacity is just as important. You can buy a system, but if you cannot train enough surgeons and theatre staff, adoption stalls."
+      },
+      {
+        "idx": 4,
+        "ts": "02:02",
+        "seconds": 122,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "How important is ROI?"
+      },
+      {
+        "idx": 5,
+        "ts": "02:07",
+        "seconds": 127,
+        "speaker_label": "Dr. Carter",
+        "role": "expert",
+        "text": "It matters, but the discussion is not always purely financial. Hospitals also consider patient outcomes, length of stay, surgeon recruitment and whether the technology improves their clinical position."
+      },
+      {
+        "idx": 6,
+        "ts": "03:03",
+        "seconds": 183,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "So would you say economics are less important in the UK?"
+      },
+      {
+        "idx": 7,
+        "ts": "03:10",
+        "seconds": 190,
+        "speaker_label": "Dr. Carter",
+        "role": "expert",
+        "text": "I would say economics and clinical strategy are balanced. I would not say finance alone decides the purchase."
+      },
+      {
+        "idx": 8,
+        "ts": "04:01",
+        "seconds": 241,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "What is your outlook for the next three to five years?"
+      },
+      {
+        "idx": 9,
+        "ts": "04:06",
+        "seconds": 246,
+        "speaker_label": "Dr. Carter",
+        "role": "expert",
+        "text": "I am quite positive. I think adoption could accelerate if training expands and systems become more cost competitive. I could see procedure growth above 15 percent annually in some areas."
+      },
+      {
+        "idx": 10,
+        "ts": "05:00",
+        "seconds": 300,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "What about purchase timelines?"
+      },
+      {
+        "idx": 11,
+        "ts": "05:04",
+        "seconds": 304,
+        "speaker_label": "Dr. Carter",
+        "role": "expert",
+        "text": "Around six to nine months can happen if funding is already available. If the trust has to wait for a new capital cycle, it can take much longer."
+      },
+      {
+        "idx": 12,
+        "ts": "06:00",
+        "seconds": 360,
+        "speaker_label": "Interviewer",
+        "role": "interviewer",
+        "text": "Any final thought?"
+      },
+      {
+        "idx": 13,
+        "ts": "06:04",
+        "seconds": 364,
+        "speaker_label": "Dr. Carter",
+        "role": "expert",
+        "text": "The key point is that adoption is not just about buying the machine. Hospitals need enough trained people and enough procedure volume to make the programme sustainable."
+      }
+    ]
+  }
+]

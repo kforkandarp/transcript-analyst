@@ -1,0 +1,883 @@
+[
+  {
+    "question_id": 1,
+    "transcript_id": "T1",
+    "parts": [
+      {
+        "sub_question": "How would you describe current adoption of robotic surgery in your market?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "Adoption is growing but remains focused in larger academic hospitals and private centres with strong capital budgets, while smaller regional hospitals adopt much more slowly.",
+              "evidence": [
+                {
+                  "chunk_id": "T1-X1",
+                  "transcript_id": "T1",
+                  "expert_name": "Dr. Jean Martin",
+                  "quote": "Adoption is growing, but it is still concentrated in larger academic hospitals and private centres with stronger capital budgets. Smaller regional hospitals are much slower.",
+                  "ts": "00:18",
+                  "question_ts": "00:00"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 1,
+            "verified_quotes": 1,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 1.554,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 1,
+    "transcript_id": "T2",
+    "parts": [
+      {
+        "sub_question": "How would you describe current adoption of robotic surgery in your market?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "Adoption of robotic surgery is growing but uneven, with large university hospitals being far ahead and many smaller hospitals still waiting.",
+              "evidence": [
+                {
+                  "chunk_id": "T2-X1",
+                  "transcript_id": "T2",
+                  "expert_name": "Anna Keller",
+                  "quote": "It is growing, but adoption is quite uneven. Large university hospitals are much more advanced, while many smaller hospitals are still waiting.",
+                  "ts": "00:16",
+                  "question_ts": "00:00"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 1,
+            "verified_quotes": 1,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 1.447,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 1,
+    "transcript_id": "T3",
+    "parts": [
+      {
+        "sub_question": "How would you describe current adoption of robotic surgery in your market?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "Adoption is increasing, with robotic surgery becoming standard for selected procedures in some larger NHS trusts, though access still varies significantly between hospitals.",
+              "evidence": [
+                {
+                  "chunk_id": "T3-X1",
+                  "transcript_id": "T3",
+                  "expert_name": "Dr. Emily Carter",
+                  "quote": "Adoption is increasing, and in some larger NHS trusts robotic surgery is becoming standard for selected procedures. But access still varies significantly by hospital.",
+                  "ts": "00:14",
+                  "question_ts": "00:00"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 1,
+            "verified_quotes": 1,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 2.747,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 2,
+    "transcript_id": "T1",
+    "parts": [
+      {
+        "sub_question": "What are the main barriers to adoption?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "The biggest barrier is capital budget approval, requiring a strong economic case before a system is purchased.",
+              "evidence": [
+                {
+                  "chunk_id": "T1-X2",
+                  "transcript_id": "T1",
+                  "expert_name": "Dr. Jean Martin",
+                  "quote": "The biggest issue is still capital budget approval. Hospitals may like the technology clinically, but purchasing committees need a strong economic case before approving a system.",
+                  "ts": "01:20",
+                  "question_ts": "01:12"
+                }
+              ]
+            },
+            {
+              "text": "Finance teams need detailed data on utilisation, procedure volume, maintenance cost and ROI before approving adoption.",
+              "evidence": [
+                {
+                  "chunk_id": "T1-X3",
+                  "transcript_id": "T1",
+                  "expert_name": "Dr. Jean Martin",
+                  "quote": "Very important. The clinical argument may get surgeons interested, but the finance team wants to understand utilisation, procedure volume, maintenance cost and whether the system will actually pay for itself.",
+                  "ts": "02:18",
+                  "question_ts": "02:14"
+                }
+              ]
+            },
+            {
+              "text": "Clinical outcomes alone are insufficient; hospitals also evaluate economics and utilisation when choosing a system.",
+              "evidence": [
+                {
+                  "chunk_id": "T1-X5",
+                  "transcript_id": "T1",
+                  "expert_name": "Dr. Jean Martin",
+                  "quote": "Clinical outcomes are necessary, but they are not enough on their own. If two systems offer similar outcomes, the hospital will look hard at economics and utilisation.",
+                  "ts": "04:08",
+                  "question_ts": "04:02"
+                }
+              ]
+            },
+            {
+              "text": "Adoption is slower in smaller regional hospitals because they have weaker capital budgets compared with larger academic and private centres.",
+              "evidence": [
+                {
+                  "chunk_id": "T1-X1",
+                  "transcript_id": "T1",
+                  "expert_name": "Dr. Jean Martin",
+                  "quote": "Adoption is growing, but it is still concentrated in larger academic hospitals and private centres with stronger capital budgets. Smaller regional hospitals are much slower.",
+                  "ts": "00:18",
+                  "question_ts": "00:00"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 4,
+            "verified_quotes": 4,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 2.419,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 2,
+    "transcript_id": "T2",
+    "parts": [
+      {
+        "sub_question": "What are the main barriers to adoption?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "The main barriers are the high cost of the capital purchase and the need to prove sufficient utilization.",
+              "evidence": [
+                {
+                  "chunk_id": "T2-X2",
+                  "transcript_id": "T2",
+                  "expert_name": "Anna Keller",
+                  "quote": "Cost is the first barrier. These are large capital purchases, and hospital finances are under pressure.",
+                  "ts": "01:10",
+                  "question_ts": "01:05"
+                },
+                {
+                  "chunk_id": "T2-X2",
+                  "transcript_id": "T2",
+                  "expert_name": "Anna Keller",
+                  "quote": "The second issue is proving that the system will be used enough.",
+                  "ts": "01:10",
+                  "question_ts": "01:05"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 2,
+            "verified_quotes": 2,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 1.825,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 2,
+    "transcript_id": "T3",
+    "parts": [
+      {
+        "sub_question": "What are the main barriers to adoption?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "Funding constraints limit adoption of robotic surgery.",
+              "evidence": [
+                {
+                  "chunk_id": "T3-X2",
+                  "transcript_id": "T3",
+                  "expert_name": "Dr. Emily Carter",
+                  "quote": "Funding is important, but I would say training capacity is just as important. You can buy a system, but if you cannot train enough surgeons and theatre staff, adoption stalls.",
+                  "ts": "01:05",
+                  "question_ts": "01:00"
+                }
+              ]
+            },
+            {
+              "text": "Insufficient training capacity—lack of enough surgeons and theatre staff—prevents adoption.",
+              "evidence": [
+                {
+                  "chunk_id": "T3-X2",
+                  "transcript_id": "T3",
+                  "expert_name": "Dr. Emily Carter",
+                  "quote": "Funding is important, but I would say training capacity is just as important. You can buy a system, but if you cannot train enough surgeons and theatre staff, adoption stalls.",
+                  "ts": "01:05",
+                  "question_ts": "01:00"
+                }
+              ]
+            },
+            {
+              "text": "Inadequate procedure volume makes programmes unsustainable, acting as a barrier.",
+              "evidence": [
+                {
+                  "chunk_id": "T3-X7",
+                  "transcript_id": "T3",
+                  "expert_name": "Dr. Emily Carter",
+                  "quote": "The key point is that adoption is not just about buying the machine. Hospitals need enough trained people and enough procedure volume to make the programme sustainable.",
+                  "ts": "06:04",
+                  "question_ts": "06:00"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 3,
+            "verified_quotes": 3,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 5.322,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 3,
+    "transcript_id": "T1",
+    "parts": [
+      {
+        "sub_question": "How important are hospital budgets and ROI in purchasing decisions?",
+        "result": {
+          "coverage": "unverified",
+          "claims": [],
+          "note": "Could not generate a verified answer",
+          "stats": {
+            "raw_quotes": 0,
+            "verified_quotes": 0,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 0.0,
+            "model": ""
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 3,
+    "transcript_id": "T2",
+    "parts": [
+      {
+        "sub_question": "How important are hospital budgets and ROI in purchasing decisions?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "Hospital budgets are a primary concern; cost is the first barrier and finances are under pressure for large capital purchases.",
+              "evidence": [
+                {
+                  "chunk_id": "T2-X2",
+                  "transcript_id": "T2",
+                  "expert_name": "Anna Keller",
+                  "quote": "Cost is the first barrier. These are large capital purchases, and hospital finances are under pressure.",
+                  "ts": "01:10",
+                  "question_ts": "01:05"
+                }
+              ]
+            },
+            {
+              "text": "The economic case (ROI) ultimately decides whether a purchase is approved, outweighing the clinical case.",
+              "evidence": [
+                {
+                  "chunk_id": "T2-X3",
+                  "transcript_id": "T2",
+                  "expert_name": "Anna Keller",
+                  "quote": "A strong clinical case helps, but the economic case decides whether it gets approved.",
+                  "ts": "02:08",
+                  "question_ts": "02:03"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 2,
+            "verified_quotes": 2,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 13.739,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 3,
+    "transcript_id": "T3",
+    "parts": [
+      {
+        "sub_question": "How important are hospital budgets and ROI in purchasing decisions?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "Hospital budgets (funding) are important but are weighed alongside training capacity.",
+              "evidence": [
+                {
+                  "chunk_id": "T3-X2",
+                  "transcript_id": "T3",
+                  "expert_name": "Dr. Emily Carter",
+                  "quote": "Funding is important, but I would say training capacity is just as important.",
+                  "ts": "01:05",
+                  "question_ts": "01:00"
+                }
+              ]
+            },
+            {
+              "text": "ROI matters, yet purchasing decisions also consider patient outcomes, length of stay, surgeon recruitment and clinical positioning.",
+              "evidence": [
+                {
+                  "chunk_id": "T3-X3",
+                  "transcript_id": "T3",
+                  "expert_name": "Dr. Emily Carter",
+                  "quote": "It matters, but the discussion is not always purely financial. Hospitals also consider patient outcomes, length of stay, surgeon recruitment and whether the technology improves their clinical position.",
+                  "ts": "02:07",
+                  "question_ts": "02:02"
+                }
+              ]
+            },
+            {
+              "text": "Economics and clinical strategy are balanced, and finance alone does not decide the purchase.",
+              "evidence": [
+                {
+                  "chunk_id": "T3-X4",
+                  "transcript_id": "T3",
+                  "expert_name": "Dr. Emily Carter",
+                  "quote": "I would say economics and clinical strategy are balanced. I would not say finance alone decides the purchase.",
+                  "ts": "03:10",
+                  "question_ts": "03:03"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 3,
+            "verified_quotes": 3,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 27.694,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 4,
+    "transcript_id": "T1",
+    "parts": [
+      {
+        "sub_question": "How important is surgeon training?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "Surgeon training is important, especially in the first year, because having only one trained surgeon makes the economics difficult; hospitals want several surgeons trained to achieve high utilisation.",
+              "evidence": [
+                {
+                  "chunk_id": "T1-X4",
+                  "transcript_id": "T1",
+                  "expert_name": "Dr. Jean Martin",
+                  "quote": "Training matters, especially in the first year. If only one surgeon can use the system, the economics become difficult. Hospitals want several surgeons trained so utilisation is high enough.",
+                  "ts": "03:10",
+                  "question_ts": "03:05"
+                }
+              ]
+            },
+            {
+              "text": "Clinical outcomes are necessary but not sufficient; when outcomes are similar, hospitals focus on economics and utilisation.",
+              "evidence": [
+                {
+                  "chunk_id": "T1-X5",
+                  "transcript_id": "T1",
+                  "expert_name": "Dr. Jean Martin",
+                  "quote": "Clinical outcomes are necessary, but they are not enough on their own. If two systems offer similar outcomes, the hospital will look hard at economics and utilisation.",
+                  "ts": "04:08",
+                  "question_ts": "04:02"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 2,
+            "verified_quotes": 2,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 35.716,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      },
+      {
+        "sub_question": "How important are clinical outcomes?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "Surgeon training is important, especially in the first year, because having only one trained surgeon makes the economics difficult and hospitals want several surgeons trained to ensure high utilisation.",
+              "evidence": [
+                {
+                  "chunk_id": "T1-X4",
+                  "transcript_id": "T1",
+                  "expert_name": "Dr. Jean Martin",
+                  "quote": "Training matters, especially in the first year. If only one surgeon can use the system, the economics become difficult. Hospitals want several surgeons trained so utilisation is high enough.",
+                  "ts": "03:10",
+                  "question_ts": "03:05"
+                }
+              ]
+            },
+            {
+              "text": "Clinical outcomes are necessary but not sufficient on their own; if two systems provide similar outcomes, hospitals will focus on economics and utilisation.",
+              "evidence": [
+                {
+                  "chunk_id": "T1-X5",
+                  "transcript_id": "T1",
+                  "expert_name": "Dr. Jean Martin",
+                  "quote": "Clinical outcomes are necessary, but they are not enough on their own. If two systems offer similar outcomes, the hospital will look hard at economics and utilisation.",
+                  "ts": "04:08",
+                  "question_ts": "04:02"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 2,
+            "verified_quotes": 2,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 23.717,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 4,
+    "transcript_id": "T2",
+    "parts": [
+      {
+        "sub_question": "How important is surgeon training?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "The expert says surgeon training is very important operationally because if only one surgeon is comfortable using a system, utilisation will be poor and the business case is weakened.",
+              "evidence": [
+                {
+                  "chunk_id": "T2-X4",
+                  "transcript_id": "T2",
+                  "expert_name": "Anna Keller",
+                  "quote": "Very important operationally. If the hospital buys a system but only one surgeon is comfortable using it, utilisation will be poor.",
+                  "ts": "03:05",
+                  "question_ts": "03:00"
+                }
+              ]
+            }
+          ],
+          "note": "The expert did not discuss clinical outcomes.",
+          "stats": {
+            "raw_quotes": 1,
+            "verified_quotes": 1,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 38.221,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      },
+      {
+        "sub_question": "How important are clinical outcomes?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "Surgeon training is very important operationally because if only one surgeon is comfortable using a new system, utilisation will be poor and the business case is weakened.",
+              "evidence": [
+                {
+                  "chunk_id": "T2-X4",
+                  "transcript_id": "T2",
+                  "expert_name": "Anna Keller",
+                  "quote": "Very important operationally. If the hospital buys a system but only one surgeon is comfortable using it, utilisation will be poor.",
+                  "ts": "03:05",
+                  "question_ts": "03:00"
+                }
+              ]
+            },
+            {
+              "text": "Clinical outcomes matter – a strong clinical case helps – but the economic case ultimately determines whether a purchase is approved.",
+              "evidence": [
+                {
+                  "chunk_id": "T2-X3",
+                  "transcript_id": "T2",
+                  "expert_name": "Anna Keller",
+                  "quote": "A strong clinical case helps, but the economic case decides whether it gets approved.",
+                  "ts": "02:08",
+                  "question_ts": "02:03"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 2,
+            "verified_quotes": 2,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 37.959,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 4,
+    "transcript_id": "T3",
+    "parts": [
+      {
+        "sub_question": "How important is surgeon training?",
+        "result": {
+          "coverage": "unverified",
+          "claims": [],
+          "note": "Could not generate a verified answer",
+          "stats": {
+            "raw_quotes": 0,
+            "verified_quotes": 0,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 0.0,
+            "model": ""
+          }
+        }
+      },
+      {
+        "sub_question": "How important are clinical outcomes?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "The expert says surgeon training capacity is as important as funding for adoption of robotic surgery.",
+              "evidence": [
+                {
+                  "chunk_id": "T3-X2",
+                  "transcript_id": "T3",
+                  "expert_name": "Dr. Emily Carter",
+                  "quote": "training capacity is just as important.",
+                  "ts": "01:05",
+                  "question_ts": "01:00"
+                }
+              ]
+            },
+            {
+              "text": "The expert notes that hospitals consider patient outcomes (along with length of stay and recruitment) when evaluating the technology, indicating clinical outcomes are an important factor.",
+              "evidence": [
+                {
+                  "chunk_id": "T3-X3",
+                  "transcript_id": "T3",
+                  "expert_name": "Dr. Emily Carter",
+                  "quote": "Hospitals also consider patient outcomes, length of stay, surgeon recruitment and whether the technology improves their clinical position.",
+                  "ts": "02:07",
+                  "question_ts": "02:02"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 2,
+            "verified_quotes": 2,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 67.342,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 5,
+    "transcript_id": "T1",
+    "parts": [
+      {
+        "sub_question": "What adoption trend do you expect over the next 3–5 years?",
+        "result": {
+          "coverage": "unverified",
+          "claims": [],
+          "note": "Could not generate a verified answer",
+          "stats": {
+            "raw_quotes": 0,
+            "verified_quotes": 0,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 0.0,
+            "model": ""
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 5,
+    "transcript_id": "T2",
+    "parts": [
+      {
+        "sub_question": "What adoption trend do you expect over the next 3–5 years?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "The expert expects adoption to grow gradually over the next 3–5 years rather than seeing a dramatic jump.",
+              "evidence": [
+                {
+                  "chunk_id": "T2-X5",
+                  "transcript_id": "T2",
+                  "expert_name": "Anna Keller",
+                  "quote": "I would not expect a dramatic jump. I think growth will be gradual, especially because many hospitals have other competing capital priorities.",
+                  "ts": "04:09",
+                  "question_ts": "04:04"
+                }
+              ]
+            },
+            {
+              "text": "The expert anticipates continued growth at high single‑digit or low double‑digit increases in procedure volumes, not a 20 % market‑wide rise.",
+              "evidence": [
+                {
+                  "chunk_id": "T2-X6",
+                  "transcript_id": "T2",
+                  "expert_name": "Anna Keller",
+                  "quote": "I would expect continued growth, but probably closer to high single digits or low double digits in procedure volumes rather than something like 20 percent across the whole market.",
+                  "ts": "05:08",
+                  "question_ts": "05:02"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 2,
+            "verified_quotes": 2,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 15.142,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 5,
+    "transcript_id": "T3",
+    "parts": [
+      {
+        "sub_question": "What adoption trend do you expect over the next 3–5 years?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "The expert expects adoption to accelerate over the next three to five years, with procedure growth above 15 percent annually in some areas.",
+              "evidence": [
+                {
+                  "chunk_id": "T3-X5",
+                  "transcript_id": "T3",
+                  "expert_name": "Dr. Emily Carter",
+                  "quote": "I think adoption could accelerate if training expands and systems become more cost competitive.",
+                  "ts": "04:06",
+                  "question_ts": "04:01"
+                },
+                {
+                  "chunk_id": "T3-X5",
+                  "transcript_id": "T3",
+                  "expert_name": "Dr. Emily Carter",
+                  "quote": "I could see procedure growth above 15 percent annually in some areas.",
+                  "ts": "04:06",
+                  "question_ts": "04:01"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 2,
+            "verified_quotes": 2,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 42.386,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 6,
+    "transcript_id": "T1",
+    "parts": [
+      {
+        "sub_question": "What is the typical hospital decision-making timeline for purchasing a new robotic system?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "A typical hospital decision‑making timeline for a new robotic system is six to twelve months, though it can be longer if the capital committee delays the purchase to the next budget cycle.",
+              "evidence": [
+                {
+                  "chunk_id": "T1-X7",
+                  "transcript_id": "T1",
+                  "expert_name": "Dr. Jean Martin",
+                  "quote": "Six to twelve months is realistic once the hospital becomes serious. It can be longer if the capital committee pushes the purchase into the next budget cycle.",
+                  "ts": "06:08",
+                  "question_ts": "06:02"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 1,
+            "verified_quotes": 1,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 11.046,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 6,
+    "transcript_id": "T2",
+    "parts": [
+      {
+        "sub_question": "What is the typical hospital decision-making timeline for purchasing a new robotic system?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "The typical decision‑making timeline for a hospital to purchase a new robotic system is about nine to eighteen months.",
+              "evidence": [
+                {
+                  "chunk_id": "T2-X7",
+                  "transcript_id": "T2",
+                  "expert_name": "Anna Keller",
+                  "quote": "Nine to eighteen months is common. Procurement, clinical leadership, finance and management all need to align, so it can move slowly.",
+                  "ts": "06:05",
+                  "question_ts": "06:00"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 1,
+            "verified_quotes": 1,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 29.92,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_id": 6,
+    "transcript_id": "T3",
+    "parts": [
+      {
+        "sub_question": "What is the typical hospital decision-making timeline for purchasing a new robotic system?",
+        "result": {
+          "coverage": "direct",
+          "claims": [
+            {
+              "text": "The typical decision‑making timeline is around six to nine months when funding is already available, but it can take much longer if the trust must wait for a new capital cycle.",
+              "evidence": [
+                {
+                  "chunk_id": "T3-X6",
+                  "transcript_id": "T3",
+                  "expert_name": "Dr. Emily Carter",
+                  "quote": "Around six to nine months can happen if funding is already available. If the trust has to wait for a new capital cycle, it can take much longer.",
+                  "ts": "05:04",
+                  "question_ts": "05:00"
+                }
+              ]
+            }
+          ],
+          "note": "",
+          "stats": {
+            "raw_quotes": 1,
+            "verified_quotes": 1,
+            "dropped_quotes": 0,
+            "retries": 0,
+            "latency_s": 8.859,
+            "model": "openai/gpt-oss-120b"
+          }
+        }
+      }
+    ]
+  }
+]
