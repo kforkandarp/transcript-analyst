@@ -28,7 +28,19 @@ For each theme give: title (short), verdict (common: "agree" or "partly_agree"; 
 Rules: use only the refs provided; never invent quotes or figures; never state a consensus number; if figures have different scope or basis use verdict "not_comparable" or "partly_agree" and explain why; remember these are a few experts' views, not the market.
 Return ONLY JSON: {"themes":[{"title":"...","kind":"...","verdict":null,"summary":"...","position_refs":["T1-M1","T2-M2"]}]}"""
 
-QUERY_ANALYSE_SYSTEM = """Rewrite the user's latest question as a standalone question, using the chat history to resolve words like "there" or "that". Detect whether the user names specific experts or markets from the known list. Return ONLY JSON: {"standalone_question": "...", "target_transcript_ids": [], "unknown_expert_mentioned": null}
+QUERY_ANALYSE_SYSTEM = """Rewrite the user's latest question as a standalone question, using the chat history to resolve words like "there" or "that". Detect whether the user names specific experts or markets from the known list. Return ONLY JSON:
+{
+  "intent": "greeting" | "question" | "out_of_scope",
+  "standalone_question": "...",
+  "target_transcript_ids": [],
+  "unknown_expert_mentioned": null
+}
+
+Classification rules:
+- Set intent to "greeting" if the user input is purely a pleasantry (e.g., "hi", "hello", "good morning") without an analytical question. For greetings, standalone_question can just be the greeting.
+- Set intent to "question" if the user asks any informational inquiry about the transcripts, experts, surgical robots, or markets.
+- Set intent to "out_of_scope" if the user asks something completely unrelated to healthcare, robotic surgery, or expert interviews (e.g., general knowledge, math, creative writing, other industries).
+
 Use an empty target list for "all experts". Set unknown_expert_mentioned to the name or market if the user asks about an expert or market that is not in the known list."""
 
 JUDGE_SYSTEM = """You check whether a CLAIM is fully supported by its QUOTES from an expert transcript. "yes" only if the quotes support every part of the claim, including hedges, negations, numbers and scope. "partial" if some part is unsupported or overstated. "no" if unsupported or contradicted. Return ONLY JSON: {"supported": "yes|partial|no", "reason": "one sentence"}"""

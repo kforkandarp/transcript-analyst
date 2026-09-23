@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from typing import Literal, Optional
+from typing import Literal, Optional, List
 from pydantic import BaseModel, Field
 
 
@@ -161,3 +161,12 @@ class Theme(BaseModel):
     summary: str
     positions: list[ThemePosition]
     expert_count: int = 0
+
+class QueryAnalysisResult(BaseModel):
+    intent: Literal["greeting", "question", "out_of_scope"] = Field(
+        default="question",
+        description="Type of user input: 'greeting' for pure pleasantries, 'question' for transcript inquiries, 'out_of_scope' for off-topic queries."
+    )
+    standalone_question: str
+    target_transcript_ids: List[str] = Field(default_factory=list)
+    unknown_expert_mentioned: Optional[str] = None

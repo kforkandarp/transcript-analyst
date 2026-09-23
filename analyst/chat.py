@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import logging
-from typing import Any, Dict, List, Optional, Sequence, Tuple
+from typing import Any, Dict, List, Literal, Optional, Sequence, Tuple
 from pydantic import BaseModel, Field
 
 from analyst.answer import generate_verified_answer
@@ -16,6 +16,10 @@ logger = logging.getLogger("analyst.chat")
 
 
 class QueryAnalysisResult(BaseModel):
+    intent: Literal["greeting", "question", "out_of_scope"] = Field(
+        default="question",
+        description="Type of user input: 'greeting' for pure pleasantries, 'question' for transcript inquiries, 'out_of_scope' for off-topic queries."
+    )
     standalone_question: str
     target_transcript_ids: List[str] = Field(default_factory=list)
     unknown_expert_mentioned: Optional[str] = None
@@ -74,6 +78,7 @@ def ask(
     target_ids = list(all_tids)
     unknown_expert: Optional[str] = None
     query_analysis_stats: Dict[str, Any] = {}
+    analysis: Optional[QueryAnalysisResult] = None
 
     history_str = _format_chat_history(history)
     user_prompt = (
@@ -102,7 +107,54 @@ def ask(
         standalone_question = question
         target_ids = list(all_tids)
 
-    
+    # 1.5 Intercept Greeting Intent
+    if analysis and getattr(analysis, "intent", "question") == "greeting":
+        return (
+            AnswerResult(
+                coverage="direct",
+                claims=[],
+                note="Hi! Ask me anything about the three expert interviews on robotic surgery adoption in Europe.",
+                stats={
+                    "raw_quotes": 0,
+                    "verified_quotes": 0,
+                    "dropped_quotes": 0,
+                    "retries": 0,
+                    "latency_s": query_analysis_stats.get("latency_s", 0.0),
+                    "model": query_analysis_stats.get("model", ""),
+                },
+            ),
+            {
+                "standalone_question": standalone_question,
+                "target_ids": target_ids,
+                "retrieved_chunk_ids": [],
+                "model_stats": query_analysis_stats,
+            },
+        )
+
+    # 1.6 Intercept Out of Scope Intent
+    if analysis and getattr(analysis, "intent", "question") == "out_of_scope":
+        return (
+            AnswerResult(
+                coverage="not_discussed",
+                claims=[],
+                note="This question falls outside the scope of the three expert interview transcripts. I can only answer questions related to robotic surgery adoption, hospital procurement, and clinical practices discussed in the interviews.",
+                stats={
+                    "raw_quotes": 0,
+                    "verified_quotes": 0,
+                    "dropped_quotes": 0,
+                    "retries": 0,
+                    "latency_s": query_analysis_stats.get("latency_s", 0.0),
+                    "model": query_analysis_stats.get("model", ""),
+                },
+            ),
+            {
+                "standalone_question": standalone_question,
+                "target_ids": target_ids,
+                "retrieved_chunk_ids": [],
+                "model_stats": query_analysis_stats,
+            },
+        )
+
     # 2. Intercept Unknown Expert Mention
     if unknown_expert:
         known_list = ", ".join(f"{t.expert_name} ({t.market})" for t in transcripts)
